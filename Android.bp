@@ -3621,33 +3621,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmm-hdcpmgr",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libmm-hdcpmgr.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmmosal_vendor",
     stem: "libmmosal",
     owner: "xiaomi",
@@ -4655,6 +4628,7 @@ cc_prebuilt_library_shared {
                 "vendor.qti.hardware.wifidisplaysession@1.0_vendor",
                 "libwfdsessionmodule",
                 "liblog",
+                "libwfdcommonutils_proprietary",
                 "libc++",
                 "libc",
                 "libm",
