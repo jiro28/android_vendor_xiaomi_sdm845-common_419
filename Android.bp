@@ -4030,6 +4030,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdcodecv4l2_proprietary",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4061,6 +4062,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdcommonutils_proprietary",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4092,6 +4094,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdconfigutils_proprietary",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4123,6 +4126,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfddisplayconfig_proprietary",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4153,6 +4157,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdhdcpcp",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4181,6 +4186,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdhdcpservice_proprietary",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4212,6 +4218,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdmminterface_proprietary",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4239,6 +4246,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdmmservice_proprietary",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4268,6 +4276,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdmmsrc_proprietary",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4310,6 +4319,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdmodulehdcpsession",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4341,6 +4351,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdrtsp_proprietary",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4371,6 +4382,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdsessionmodule",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4402,6 +4414,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdsourcesession_proprietary",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4439,6 +4452,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdsourcesm_proprietary",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4479,6 +4493,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfduibcinterface_proprietary",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4509,6 +4524,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfduibcsink_proprietary",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4536,6 +4552,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfduibcsinkinterface_proprietary",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4567,6 +4584,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfduibcsrc_proprietary",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4598,6 +4616,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfduibcsrcinterface_proprietary",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4629,6 +4648,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdutils_proprietary",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -11729,6 +11749,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdavenhancements",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -11759,6 +11780,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdclient",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -11795,6 +11817,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdcommonutils",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -11839,6 +11862,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdconfigutils",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -11870,6 +11894,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfddisplayconfig",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -11902,6 +11927,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdmminterface",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -11930,6 +11956,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdmmsink",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -11977,6 +12004,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdmmsrc_system",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -12024,6 +12052,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdnative",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -12060,6 +12089,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdrtsp",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -12094,6 +12124,7 @@ cc_prebuilt_library_shared {
     strip: {
         none: true,
     },
+    check_elf_files: false,
     target: {
         android_arm64: {
             srcs: [
@@ -12138,6 +12169,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfdsinksm",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -12178,6 +12210,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfduibcinterface",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -12208,6 +12241,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfduibcsink",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -12237,6 +12271,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfduibcsinkinterface",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -12268,6 +12303,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfduibcsrc",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -12299,6 +12335,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libwfduibcsrcinterface",
     owner: "xiaomi",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -14434,6 +14471,7 @@ cc_prebuilt_binary {
 cc_prebuilt_binary {
     name: "wfdvndservice",
     owner: "xiaomi",
+    check_elf_files: false,
     target: {
         android_arm: {
             srcs: [
@@ -14525,6 +14563,7 @@ cc_prebuilt_binary {
 cc_prebuilt_binary {
     name: "wfdservice64",
     owner: "xiaomi",
+    check_elf_files: false,
     target: {
         android_arm64: {
             srcs: [
